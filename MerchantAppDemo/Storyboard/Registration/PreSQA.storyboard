@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="81N-iI-iQO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PreSQA Table View Controller-->
+        <scene sceneID="piB-Pe-YWT">
+            <objects>
+                <tableViewController id="81N-iI-iQO" customClass="PreSQATableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="QIU-XN-N6Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection footerTitle="e.g. Double swiping, key punching on cash register, copying card number." id="i55-QA-ZWg">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="ui8-eF-WjR">
+                                        <rect key="frame" x="0.0" y="35" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ui8-eF-WjR" id="TAQ-ZY-U0a">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you store card data?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vey-ky-Cbd">
+                                                    <rect key="frame" x="8" y="8" width="182" height="27.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gib-gJ-1G7">
+                                                    <rect key="frame" x="304" y="8" width="63" height="27.5"/>
+                                                    <state key="normal" title="YES / NO">
+                                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="preSQATap:" destination="81N-iI-iQO" eventType="touchUpInside" id="Dbt-Ev-2xA"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="gib-gJ-1G7" secondAttribute="trailing" id="4dg-Pg-3z1"/>
+                                                <constraint firstItem="Vey-ky-Cbd" firstAttribute="top" secondItem="TAQ-ZY-U0a" secondAttribute="topMargin" id="9cm-Tc-sAa"/>
+                                                <constraint firstItem="gib-gJ-1G7" firstAttribute="bottom" secondItem="TAQ-ZY-U0a" secondAttribute="bottomMargin" id="D4I-xr-JQE"/>
+                                                <constraint firstItem="Vey-ky-Cbd" firstAttribute="leading" secondItem="TAQ-ZY-U0a" secondAttribute="leadingMargin" id="Mb6-Wv-aYj"/>
+                                                <constraint firstItem="Vey-ky-Cbd" firstAttribute="bottom" secondItem="TAQ-ZY-U0a" secondAttribute="bottomMargin" id="iDI-Re-8hu"/>
+                                                <constraint firstItem="gib-gJ-1G7" firstAttribute="top" secondItem="TAQ-ZY-U0a" secondAttribute="topMargin" id="puN-Tb-5Qg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="81N-iI-iQO" id="QwO-hX-ot7"/>
+                            <outlet property="delegate" destination="81N-iI-iQO" id="qlC-nT-cMv"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="preSQAButton" destination="gib-gJ-1G7" id="gTe-wF-oYS"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xf9-4q-LdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="143" y="162"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125A280BCDB2CC32D50F4791 /* libPods-MerchantAppDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DB172E8C508ABE4F705D44 /* libPods-MerchantAppDemoTests.a */; };
+		8350CB5B0A9838B5A8F65311 /* libPods-MerchantAppDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4743D6464852F4F4035AC9A6 /* libPods-MerchantAppDemo.a */; };
+		D1A4C53D9F6B115D2AD10C23 /* libPods-MerchantAppDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF3BDF41187B376E22C49FA /* libPods-MerchantAppDemoUITests.a */; };
+		EB01F30C1FB83CBE00777FC7 /* GlobalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01F30B1FB83CBE00777FC7 /* GlobalMethod.m */; };
+		EB01F30F1FB83D1100777FC7 /* GlobalConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01F30E1FB83D1100777FC7 /* GlobalConstant.m */; };
+		EB01F3131FB8429200777FC7 /* CountryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01F3121FB8429200777FC7 /* CountryObject.m */; };
+		EB01F3171FB894BA00777FC7 /* BusinessProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01F3161FB894BA00777FC7 /* BusinessProfileTableViewController.m */; };
+		EB01F31D1FB8987B00777FC7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01F31C1FB8987B00777FC7 /* LoginViewController.m */; };
+		EB01F3631FB8A4E900777FC7 /* BusinessProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB01F3621FB8A4E900777FC7 /* BusinessProfile.storyboard */; };
+		EB01F3651FB8A7B700777FC7 /* RegisterPhoneNumber.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB01F3641FB8A7B700777FC7 /* RegisterPhoneNumber.storyboard */; };
+		EB01F3681FB8B74C00777FC7 /* CardServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB01F3671FB8B74C00777FC7 /* CardServicesTableViewController.m */; };
+		EB023EA91FBE7501004E0DD5 /* ShopDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB023EA81FBE7501004E0DD5 /* ShopDetailTableViewController.m */; };
+		EB023EAC1FBE753E004E0DD5 /* ShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB023EAB1FBE753E004E0DD5 /* ShopTableViewCell.m */; };
+		EB023EAF1FBE9294004E0DD5 /* GenerateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB023EAE1FBE9294004E0DD5 /* GenerateQRCodeViewController.m */; };
+		EB023EB21FBED1E4004E0DD5 /* ViewShopDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB023EB11FBED1E4004E0DD5 /* ViewShopDetailTableViewController.m */; };
+		EB046C1D1FB6F3A900978944 /* TnC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB046C1C1FB6F3A900978944 /* TnC.storyboard */; };
+		EB046C221FB6F44F00978944 /* PreSQA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB046C211FB6F44F00978944 /* PreSQA.storyboard */; };
+		EB046C271FB6F4D700978944 /* BusinessLicense.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB046C261FB6F4D700978944 /* BusinessLicense.storyboard */; };
+		EB046C2C1FB6F52400978944 /* OutletDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB046C2B1FB6F52400978944 /* OutletDetail.storyboard */; };
+		EB046C311FB6F7D900978944 /* Declaration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB046C301FB6F7D900978944 /* Declaration.storyboard */; };
+		EB046C341FB70E7A00978944 /* DeclarationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB046C331FB70E7A00978944 /* DeclarationTableViewController.m */; };
+		EB0536281FB70F9100AB1794 /* PreSQATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0536271FB70F9100AB1794 /* PreSQATableViewController.m */; };
+		EB05362B1FB717CB00AB1794 /* BusinessLicenseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB05362A1FB717CB00AB1794 /* BusinessLicenseTableViewController.m */; };
+		EB05362E1FB73D0000AB1794 /* OutletDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB05362D1FB73D0000AB1794 /* OutletDetailTableViewController.m */; };
+		EB0536301FB747DA00AB1794 /* CountryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB05362F1FB747DA00AB1794 /* CountryList.storyboard */; };
+		EB0536331FB7492000AB1794 /* CountryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0536321FB7492000AB1794 /* CountryListViewController.m */; };
+		EB0536361FB74BB600AB1794 /* CapitalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0536351FB74BB600AB1794 /* CapitalListViewController.m */; };
+		EB0536381FB74C7F00AB1794 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0536371FB74C7F00AB1794 /* MapView.storyboard */; };
+		EB05363C1FB7520900AB1794 /* CountryListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB05363B1FB7520900AB1794 /* CountryListTableViewCell.m */; };
+		EB05363F1FB7521B00AB1794 /* CapitalListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB05363E1FB7521B00AB1794 /* CapitalListTableViewCell.m */; };
+		EB05364A1FB7844D00AB1794 /* CardServices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0536491FB7844D00AB1794 /* CardServices.storyboard */; };
+		EB3F29A11FB58245006B9508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29A01FB58245006B9508 /* AppDelegate.m */; };
+		EB3F29A41FB58245006B9508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29A31FB58245006B9508 /* ViewController.m */; };
+		EB3F29A71FB58245006B9508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3F29A51FB58245006B9508 /* Main.storyboard */; };
+		EB3F29A91FB58245006B9508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3F29A81FB58245006B9508 /* Assets.xcassets */; };
+		EB3F29AC1FB58245006B9508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3F29AA1FB58245006B9508 /* LaunchScreen.storyboard */; };
+		EB3F29AF1FB58245006B9508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29AE1FB58245006B9508 /* main.m */; };
+		EB3F29B91FB58246006B9508 /* MerchantAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29B81FB58246006B9508 /* MerchantAppDemoTests.m */; };
+		EB3F29C41FB58246006B9508 /* MerchantAppDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3F29C31FB58246006B9508 /* MerchantAppDemoUITests.m */; };
+		EB57AE5F1FBDFBEE002AC269 /* ShopObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57AE5E1FBDFBEE002AC269 /* ShopObject.m */; };
+		EB57AE621FBDFE1B002AC269 /* AddShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57AE611FBDFE1B002AC269 /* AddShopViewController.m */; };
+		EB57AE691FBE0323002AC269 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB57AE681FBE0323002AC269 /* Shop.storyboard */; };
+		EBAAE0291FC1813000B9DE87 /* ShopQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAAE0281FC1813000B9DE87 /* ShopQrCodeViewController.m */; };
+		EBC1603A1FBA94F600BEEEDD /* AddStaffTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC160391FBA94F600BEEEDD /* AddStaffTableViewController.m */; };
+		EBC1603D1FBA959D00BEEEDD /* StaffProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC1603C1FBA959D00BEEEDD /* StaffProfileTableViewController.m */; };
+		EBC160401FBA962600BEEEDD /* EditStaffProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC1603F1FBA962600BEEEDD /* EditStaffProfileTableViewController.m */; };
+		EBC160451FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC160441FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.m */; };
+		EBC1604E1FBC41F200BEEEDD /* StaffTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC1604D1FBC41F200BEEEDD /* StaffTableViewCell.m */; };
+		EBDFC13F1FB95C6B00B6B07A /* Staff.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDFC13E1FB95C6B00B6B07A /* Staff.storyboard */; };
+		EBDFC1431FB95D9C00B6B07A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC1421FB95D9C00B6B07A /* HomeViewController.m */; };
+		EBDFC1501FB9FCC500B6B07A /* SalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDFC14F1FB9FCC500B6B07A /* SalesViewController.m */; };
+		EBE4FAB81FBD24FF001346BC /* StaffObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FAB71FBD24FF001346BC /* StaffObject.m */; };
+		EBE939EF1FB92F21009FCD60 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE939EE1FB92F21009FCD60 /* Home.storyboard */; };
+		EBF17FEE1FBC93620062AAF5 /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF17FED1FBC93620062AAF5 /* StaffViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB3F29B51FB58246006B9508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3F29941FB58245006B9508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3F299B1FB58245006B9508;
+			remoteInfo = MerchantAppDemo;
+		};
+		EB3F29C01FB58246006B9508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3F29941FB58245006B9508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3F299B1FB58245006B9508;
+			remoteInfo = MerchantAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0710EC98294D4E616ACDE71A /* Pods-MerchantAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerchantAppDemo/Pods-MerchantAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		207DD115AB7A419C8DEEEE7C /* Pods-MerchantAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantAppDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerchantAppDemo/Pods-MerchantAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2C88FC6133E84A58AF01AC75 /* Pods-MerchantAppDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantAppDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerchantAppDemoUITests/Pods-MerchantAppDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4743D6464852F4F4035AC9A6 /* libPods-MerchantAppDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MerchantAppDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DB172E8C508ABE4F705D44 /* libPods-MerchantAppDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MerchantAppDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DFF5135773C2F35B7BB380 /* Pods-MerchantAppDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantAppDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerchantAppDemoTests/Pods-MerchantAppDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A022E9069159495C36DB7FA2 /* Pods-MerchantAppDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantAppDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerchantAppDemoTests/Pods-MerchantAppDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA42166A51D6224498A7B961 /* Pods-MerchantAppDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantAppDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerchantAppDemoUITests/Pods-MerchantAppDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF3BDF41187B376E22C49FA /* libPods-MerchantAppDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MerchantAppDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB01F30A1FB83CBE00777FC7 /* GlobalMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMethod.h; sourceTree = "<group>"; };
+		EB01F30B1FB83CBE00777FC7 /* GlobalMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalMethod.m; sourceTree = "<group>"; };
+		EB01F30D1FB83D1100777FC7 /* GlobalConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstant.h; sourceTree = "<group>"; };
+		EB01F30E1FB83D1100777FC7 /* GlobalConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalConstant.m; sourceTree = "<group>"; };
+		EB01F3111FB8429200777FC7 /* CountryObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryObject.h; sourceTree = "<group>"; };
+		EB01F3121FB8429200777FC7 /* CountryObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryObject.m; sourceTree = "<group>"; };
+		EB01F3151FB894BA00777FC7 /* BusinessProfileTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessProfileTableViewController.h; sourceTree = "<group>"; };
+		EB01F3161FB894BA00777FC7 /* BusinessProfileTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessProfileTableViewController.m; sourceTree = "<group>"; };
+		EB01F31B1FB8986E00777FC7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EB01F31C1FB8987B00777FC7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EB01F3621FB8A4E900777FC7 /* BusinessProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessProfile.storyboard; sourceTree = "<group>"; };
+		EB01F3641FB8A7B700777FC7 /* RegisterPhoneNumber.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterPhoneNumber.storyboard; sourceTree = "<group>"; };
+		EB01F3661FB8B74C00777FC7 /* CardServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardServicesTableViewController.h; sourceTree = "<group>"; };
+		EB01F3671FB8B74C00777FC7 /* CardServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardServicesTableViewController.m; sourceTree = "<group>"; };
+		EB023EA71FBE7501004E0DD5 /* ShopDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopDetailTableViewController.h; sourceTree = "<group>"; };
+		EB023EA81FBE7501004E0DD5 /* ShopDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopDetailTableViewController.m; sourceTree = "<group>"; };
+		EB023EAA1FBE753E004E0DD5 /* ShopTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopTableViewCell.h; sourceTree = "<group>"; };
+		EB023EAB1FBE753E004E0DD5 /* ShopTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopTableViewCell.m; sourceTree = "<group>"; };
+		EB023EAD1FBE9294004E0DD5 /* GenerateQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerateQRCodeViewController.h; sourceTree = "<group>"; };
+		EB023EAE1FBE9294004E0DD5 /* GenerateQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateQRCodeViewController.m; sourceTree = "<group>"; };
+		EB023EB01FBED1E4004E0DD5 /* ViewShopDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewShopDetailTableViewController.h; sourceTree = "<group>"; };
+		EB023EB11FBED1E4004E0DD5 /* ViewShopDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewShopDetailTableViewController.m; sourceTree = "<group>"; };
+		EB046C1C1FB6F3A900978944 /* TnC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TnC.storyboard; sourceTree = "<group>"; };
+		EB046C211FB6F44F00978944 /* PreSQA.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PreSQA.storyboard; sourceTree = "<group>"; };
+		EB046C261FB6F4D700978944 /* BusinessLicense.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusinessLicense.storyboard; sourceTree = "<group>"; };
+		EB046C2B1FB6F52400978944 /* OutletDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OutletDetail.storyboard; sourceTree = "<group>"; };
+		EB046C301FB6F7D900978944 /* Declaration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Declaration.storyboard; sourceTree = "<group>"; };
+		EB046C321FB70E7A00978944 /* DeclarationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeclarationTableViewController.h; sourceTree = "<group>"; };
+		EB046C331FB70E7A00978944 /* DeclarationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeclarationTableViewController.m; sourceTree = "<group>"; };
+		EB0536261FB70F9100AB1794 /* PreSQATableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreSQATableViewController.h; sourceTree = "<group>"; };
+		EB0536271FB70F9100AB1794 /* PreSQATableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreSQATableViewController.m; sourceTree = "<group>"; };
+		EB0536291FB717CB00AB1794 /* BusinessLicenseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessLicenseTableViewController.h; sourceTree = "<group>"; };
+		EB05362A1FB717CB00AB1794 /* BusinessLicenseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessLicenseTableViewController.m; sourceTree = "<group>"; };
+		EB05362C1FB73D0000AB1794 /* OutletDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutletDetailTableViewController.h; sourceTree = "<group>"; };
+		EB05362D1FB73D0000AB1794 /* OutletDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutletDetailTableViewController.m; sourceTree = "<group>"; };
+		EB05362F1FB747DA00AB1794 /* CountryList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryList.storyboard; sourceTree = "<group>"; };
+		EB0536311FB7492000AB1794 /* CountryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryListViewController.h; sourceTree = "<group>"; };
+		EB0536321FB7492000AB1794 /* CountryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryListViewController.m; sourceTree = "<group>"; };
+		EB0536341FB74BB600AB1794 /* CapitalListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CapitalListViewController.h; sourceTree = "<group>"; };
+		EB0536351FB74BB600AB1794 /* CapitalListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapitalListViewController.m; sourceTree = "<group>"; };
+		EB0536371FB74C7F00AB1794 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		EB05363A1FB7520900AB1794 /* CountryListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryListTableViewCell.h; sourceTree = "<group>"; };
+		EB05363B1FB7520900AB1794 /* CountryListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryListTableViewCell.m; sourceTree = "<group>"; };
+		EB05363D1FB7521B00AB1794 /* CapitalListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CapitalListTableViewCell.h; sourceTree = "<group>"; };
+		EB05363E1FB7521B00AB1794 /* CapitalListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapitalListTableViewCell.m; sourceTree = "<group>"; };
+		EB0536491FB7844D00AB1794 /* CardServices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardServices.storyboard; sourceTree = "<group>"; };
+		EB3F299C1FB58245006B9508 /* MerchantAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3F299F1FB58245006B9508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB3F29A01FB58245006B9508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB3F29A21FB58245006B9508 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB3F29A31FB58245006B9508 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB3F29A61FB58245006B9508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB3F29A81FB58245006B9508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3F29AB1FB58245006B9508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB3F29AD1FB58245006B9508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3F29AE1FB58245006B9508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB3F29B41FB58246006B9508 /* MerchantAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerchantAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3F29B81FB58246006B9508 /* MerchantAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantAppDemoTests.m; sourceTree = "<group>"; };
+		EB3F29BA1FB58246006B9508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3F29BF1FB58246006B9508 /* MerchantAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerchantAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3F29C31FB58246006B9508 /* MerchantAppDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantAppDemoUITests.m; sourceTree = "<group>"; };
+		EB3F29C51FB58246006B9508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB57AE5D1FBDFBEE002AC269 /* ShopObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopObject.h; sourceTree = "<group>"; };
+		EB57AE5E1FBDFBEE002AC269 /* ShopObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopObject.m; sourceTree = "<group>"; };
+		EB57AE601FBDFE1B002AC269 /* AddShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddShopViewController.h; sourceTree = "<group>"; };
+		EB57AE611FBDFE1B002AC269 /* AddShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddShopViewController.m; sourceTree = "<group>"; };
+		EB57AE681FBE0323002AC269 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		EBAAE0271FC1813000B9DE87 /* ShopQrCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopQrCodeViewController.h; sourceTree = "<group>"; };
+		EBAAE0281FC1813000B9DE87 /* ShopQrCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopQrCodeViewController.m; sourceTree = "<group>"; };
+		EBC160381FBA94F600BEEEDD /* AddStaffTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddStaffTableViewController.h; sourceTree = "<group>"; };
+		EBC160391FBA94F600BEEEDD /* AddStaffTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddStaffTableViewController.m; sourceTree = "<group>"; };
+		EBC1603B1FBA959D00BEEEDD /* StaffProfileTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaffProfileTableViewController.h; sourceTree = "<group>"; };
+		EBC1603C1FBA959D00BEEEDD /* StaffProfileTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaffProfileTableViewController.m; sourceTree = "<group>"; };
+		EBC1603E1FBA962600BEEEDD /* EditStaffProfileTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditStaffProfileTableViewController.h; sourceTree = "<group>"; };
+		EBC1603F1FBA962600BEEEDD /* EditStaffProfileTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditStaffProfileTableViewController.m; sourceTree = "<group>"; };
+		EBC160431FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterPhoneNumTableViewController.h; sourceTree = "<group>"; };
+		EBC160441FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterPhoneNumTableViewController.m; sourceTree = "<group>"; };
+		EBC1604C1FBC41F200BEEEDD /* StaffTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaffTableViewCell.h; sourceTree = "<group>"; };
+		EBC1604D1FBC41F200BEEEDD /* StaffTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaffTableViewCell.m; sourceTree = "<group>"; };
+		EBDFC13E1FB95C6B00B6B07A /* Staff.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Staff.storyboard; sourceTree = "<group>"; };
+		EBDFC1411FB95D9C00B6B07A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EBDFC1421FB95D9C00B6B07A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EBDFC14E1FB9FCC500B6B07A /* SalesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalesViewController.h; sourceTree = "<group>"; };
+		EBDFC14F1FB9FCC500B6B07A /* SalesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalesViewController.m; sourceTree = "<group>"; };
+		EBE4FAB61FBD24FF001346BC /* StaffObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaffObject.h; sourceTree = "<group>"; };
+		EBE4FAB71FBD24FF001346BC /* StaffObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaffObject.m; sourceTree = "<group>"; };
+		EBE939EE1FB92F21009FCD60 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EBF17FEC1FBC93620062AAF5 /* StaffViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaffViewController.h; sourceTree = "<group>"; };
+		EBF17FED1FBC93620062AAF5 /* StaffViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3F29991FB58245006B9508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8350CB5B0A9838B5A8F65311 /* libPods-MerchantAppDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F29B11FB58246006B9508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125A280BCDB2CC32D50F4791 /* libPods-MerchantAppDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F29BC1FB58246006B9508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A4C53D9F6B115D2AD10C23 /* libPods-MerchantAppDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ED440499805093330D0284B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0710EC98294D4E616ACDE71A /* Pods-MerchantAppDemo.debug.xcconfig */,
+				207DD115AB7A419C8DEEEE7C /* Pods-MerchantAppDemo.release.xcconfig */,
+				A022E9069159495C36DB7FA2 /* Pods-MerchantAppDemoTests.debug.xcconfig */,
+				66DFF5135773C2F35B7BB380 /* Pods-MerchantAppDemoTests.release.xcconfig */,
+				2C88FC6133E84A58AF01AC75 /* Pods-MerchantAppDemoUITests.debug.xcconfig */,
+				CA42166A51D6224498A7B961 /* Pods-MerchantAppDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB01F3091FB83C7000777FC7 /* UtilityClass */ = {
+			isa = PBXGroup;
+			children = (
+				EB01F30D1FB83D1100777FC7 /* GlobalConstant.h */,
+				EB01F30E1FB83D1100777FC7 /* GlobalConstant.m */,
+				EB01F30A1FB83CBE00777FC7 /* GlobalMethod.h */,
+				EB01F30B1FB83CBE00777FC7 /* GlobalMethod.m */,
+			);
+			path = UtilityClass;
+			sourceTree = "<group>";
+		};
+		EB01F3141FB8429900777FC7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EB01F3111FB8429200777FC7 /* CountryObject.h */,
+				EB01F3121FB8429200777FC7 /* CountryObject.m */,
+				EBE4FAB61FBD24FF001346BC /* StaffObject.h */,
+				EBE4FAB71FBD24FF001346BC /* StaffObject.m */,
+				EB57AE5D1FBDFBEE002AC269 /* ShopObject.h */,
+				EB57AE5E1FBDFBEE002AC269 /* ShopObject.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		EB01F31A1FB8983A00777FC7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC1401FB95D7300B6B07A /* HomeVC */,
+				EB01F31B1FB8986E00777FC7 /* LoginViewController.h */,
+				EB01F31C1FB8987B00777FC7 /* LoginViewController.m */,
+				EB046C1B1FB6F2E400978944 /* RegistrationVC */,
+				EBDFC14D1FB9FCAC00B6B07A /* SalesVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EB046C171FB6E81200978944 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F29A51FB58245006B9508 /* Main.storyboard */,
+				EB046C181FB6F0EF00978944 /* Registration */,
+				EBE939ED1FB92EFA009FCD60 /* Home */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EB046C181FB6F0EF00978944 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				EB046C261FB6F4D700978944 /* BusinessLicense.storyboard */,
+				EB01F3621FB8A4E900777FC7 /* BusinessProfile.storyboard */,
+				EB0536491FB7844D00AB1794 /* CardServices.storyboard */,
+				EB05362F1FB747DA00AB1794 /* CountryList.storyboard */,
+				EB046C301FB6F7D900978944 /* Declaration.storyboard */,
+				EB0536371FB74C7F00AB1794 /* MapView.storyboard */,
+				EB046C2B1FB6F52400978944 /* OutletDetail.storyboard */,
+				EB046C211FB6F44F00978944 /* PreSQA.storyboard */,
+				EB01F3641FB8A7B700777FC7 /* RegisterPhoneNumber.storyboard */,
+				EB046C1C1FB6F3A900978944 /* TnC.storyboard */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		EB046C1B1FB6F2E400978944 /* RegistrationVC */ = {
+			isa = PBXGroup;
+			children = (
+				EB0536291FB717CB00AB1794 /* BusinessLicenseTableViewController.h */,
+				EB05362A1FB717CB00AB1794 /* BusinessLicenseTableViewController.m */,
+				EB01F3151FB894BA00777FC7 /* BusinessProfileTableViewController.h */,
+				EB01F3161FB894BA00777FC7 /* BusinessProfileTableViewController.m */,
+				EB0536341FB74BB600AB1794 /* CapitalListViewController.h */,
+				EB0536351FB74BB600AB1794 /* CapitalListViewController.m */,
+				EB01F3661FB8B74C00777FC7 /* CardServicesTableViewController.h */,
+				EB01F3671FB8B74C00777FC7 /* CardServicesTableViewController.m */,
+				EB0536311FB7492000AB1794 /* CountryListViewController.h */,
+				EB0536321FB7492000AB1794 /* CountryListViewController.m */,
+				EB046C321FB70E7A00978944 /* DeclarationTableViewController.h */,
+				EB046C331FB70E7A00978944 /* DeclarationTableViewController.m */,
+				EB05362C1FB73D0000AB1794 /* OutletDetailTableViewController.h */,
+				EB05362D1FB73D0000AB1794 /* OutletDetailTableViewController.m */,
+				EB0536261FB70F9100AB1794 /* PreSQATableViewController.h */,
+				EB0536271FB70F9100AB1794 /* PreSQATableViewController.m */,
+				EBC160431FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.h */,
+				EBC160441FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.m */,
+			);
+			path = RegistrationVC;
+			sourceTree = "<group>";
+		};
+		EB0536391FB751D300AB1794 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EB05363A1FB7520900AB1794 /* CountryListTableViewCell.h */,
+				EB05363B1FB7520900AB1794 /* CountryListTableViewCell.m */,
+				EB05363D1FB7521B00AB1794 /* CapitalListTableViewCell.h */,
+				EB05363E1FB7521B00AB1794 /* CapitalListTableViewCell.m */,
+				EBC1604C1FBC41F200BEEEDD /* StaffTableViewCell.h */,
+				EBC1604D1FBC41F200BEEEDD /* StaffTableViewCell.m */,
+				EB023EAA1FBE753E004E0DD5 /* ShopTableViewCell.h */,
+				EB023EAB1FBE753E004E0DD5 /* ShopTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		EB3F29931FB58245006B9508 = {
+			isa = PBXGroup;
+			children = (
+				EB3F299E1FB58245006B9508 /* MerchantAppDemo */,
+				EB3F29B71FB58246006B9508 /* MerchantAppDemoTests */,
+				EB3F29C21FB58246006B9508 /* MerchantAppDemoUITests */,
+				EB3F299D1FB58245006B9508 /* Products */,
+				6ED440499805093330D0284B /* Pods */,
+				F21B9C952DE3937510D41015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3F299D1FB58245006B9508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F299C1FB58245006B9508 /* MerchantAppDemo.app */,
+				EB3F29B41FB58246006B9508 /* MerchantAppDemoTests.xctest */,
+				EB3F29BF1FB58246006B9508 /* MerchantAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3F299E1FB58245006B9508 /* MerchantAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F299F1FB58245006B9508 /* AppDelegate.h */,
+				EB3F29A01FB58245006B9508 /* AppDelegate.m */,
+				EB3F29A81FB58245006B9508 /* Assets.xcassets */,
+				EB3F29AD1FB58245006B9508 /* Info.plist */,
+				EB3F29AA1FB58245006B9508 /* LaunchScreen.storyboard */,
+				EB3F29AE1FB58245006B9508 /* main.m */,
+				EB01F3141FB8429900777FC7 /* Objects */,
+				EB046C171FB6E81200978944 /* Storyboard */,
+				EB0536391FB751D300AB1794 /* TableViewCell */,
+				EB01F3091FB83C7000777FC7 /* UtilityClass */,
+				EB01F31A1FB8983A00777FC7 /* ViewController */,
+				EB3F29A21FB58245006B9508 /* ViewController.h */,
+				EB3F29A31FB58245006B9508 /* ViewController.m */,
+			);
+			path = MerchantAppDemo;
+			sourceTree = "<group>";
+		};
+		EB3F29B71FB58246006B9508 /* MerchantAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F29B81FB58246006B9508 /* MerchantAppDemoTests.m */,
+				EB3F29BA1FB58246006B9508 /* Info.plist */,
+			);
+			path = MerchantAppDemoTests;
+			sourceTree = "<group>";
+		};
+		EB3F29C21FB58246006B9508 /* MerchantAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F29C31FB58246006B9508 /* MerchantAppDemoUITests.m */,
+				EB3F29C51FB58246006B9508 /* Info.plist */,
+			);
+			path = MerchantAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		EB57AE5C1FBDFBB2002AC269 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				EB57AE601FBDFE1B002AC269 /* AddShopViewController.h */,
+				EB57AE611FBDFE1B002AC269 /* AddShopViewController.m */,
+				EB023EA71FBE7501004E0DD5 /* ShopDetailTableViewController.h */,
+				EB023EA81FBE7501004E0DD5 /* ShopDetailTableViewController.m */,
+				EB023EB01FBED1E4004E0DD5 /* ViewShopDetailTableViewController.h */,
+				EB023EB11FBED1E4004E0DD5 /* ViewShopDetailTableViewController.m */,
+				EBAAE0271FC1813000B9DE87 /* ShopQrCodeViewController.h */,
+				EBAAE0281FC1813000B9DE87 /* ShopQrCodeViewController.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		EBC160371FBA949700BEEEDD /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				EBC160381FBA94F600BEEEDD /* AddStaffTableViewController.h */,
+				EBC160391FBA94F600BEEEDD /* AddStaffTableViewController.m */,
+				EBC1603E1FBA962600BEEEDD /* EditStaffProfileTableViewController.h */,
+				EBC1603F1FBA962600BEEEDD /* EditStaffProfileTableViewController.m */,
+				EBC1603B1FBA959D00BEEEDD /* StaffProfileTableViewController.h */,
+				EBC1603C1FBA959D00BEEEDD /* StaffProfileTableViewController.m */,
+				EBF17FEC1FBC93620062AAF5 /* StaffViewController.h */,
+				EBF17FED1FBC93620062AAF5 /* StaffViewController.m */,
+				EB023EAD1FBE9294004E0DD5 /* GenerateQRCodeViewController.h */,
+				EB023EAE1FBE9294004E0DD5 /* GenerateQRCodeViewController.m */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		EBDFC1401FB95D7300B6B07A /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				EB57AE5C1FBDFBB2002AC269 /* Shop */,
+				EBDFC1411FB95D9C00B6B07A /* HomeViewController.h */,
+				EBDFC1421FB95D9C00B6B07A /* HomeViewController.m */,
+				EBC160371FBA949700BEEEDD /* Staff */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		EBDFC14D1FB9FCAC00B6B07A /* SalesVC */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC14E1FB9FCC500B6B07A /* SalesViewController.h */,
+				EBDFC14F1FB9FCC500B6B07A /* SalesViewController.m */,
+			);
+			path = SalesVC;
+			sourceTree = "<group>";
+		};
+		EBE939ED1FB92EFA009FCD60 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EBE939EE1FB92F21009FCD60 /* Home.storyboard */,
+				EBDFC13E1FB95C6B00B6B07A /* Staff.storyboard */,
+				EB57AE681FBE0323002AC269 /* Shop.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F21B9C952DE3937510D41015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4743D6464852F4F4035AC9A6 /* libPods-MerchantAppDemo.a */,
+				53DB172E8C508ABE4F705D44 /* libPods-MerchantAppDemoTests.a */,
+				CAF3BDF41187B376E22C49FA /* libPods-MerchantAppDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3F299B1FB58245006B9508 /* MerchantAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3F29C81FB58246006B9508 /* Build configuration list for PBXNativeTarget "MerchantAppDemo" */;
+			buildPhases = (
+				A636508B0DB71C22AB9CFE07 /* [CP] Check Pods Manifest.lock */,
+				EB3F29981FB58245006B9508 /* Sources */,
+				EB3F29991FB58245006B9508 /* Frameworks */,
+				EB3F299A1FB58245006B9508 /* Resources */,
+				874A13CEFCDB0A258D7186A4 /* [CP] Embed Pods Frameworks */,
+				BB57C588028F6C1048D07690 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerchantAppDemo;
+			productName = MerchantAppDemo;
+			productReference = EB3F299C1FB58245006B9508 /* MerchantAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB3F29B31FB58246006B9508 /* MerchantAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3F29CB1FB58246006B9508 /* Build configuration list for PBXNativeTarget "MerchantAppDemoTests" */;
+			buildPhases = (
+				5567CF0C17BDB773DEAA5845 /* [CP] Check Pods Manifest.lock */,
+				EB3F29B01FB58246006B9508 /* Sources */,
+				EB3F29B11FB58246006B9508 /* Frameworks */,
+				EB3F29B21FB58246006B9508 /* Resources */,
+				6BA30F7F29B4B91F3DDF64ED /* [CP] Embed Pods Frameworks */,
+				3BDAE697932D5F78B9AE0903 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3F29B61FB58246006B9508 /* PBXTargetDependency */,
+			);
+			name = MerchantAppDemoTests;
+			productName = MerchantAppDemoTests;
+			productReference = EB3F29B41FB58246006B9508 /* MerchantAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB3F29BE1FB58246006B9508 /* MerchantAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3F29CE1FB58246006B9508 /* Build configuration list for PBXNativeTarget "MerchantAppDemoUITests" */;
+			buildPhases = (
+				4E230266E57772209168B881 /* [CP] Check Pods Manifest.lock */,
+				EB3F29BB1FB58246006B9508 /* Sources */,
+				EB3F29BC1FB58246006B9508 /* Frameworks */,
+				EB3F29BD1FB58246006B9508 /* Resources */,
+				54A3419D9B8DC975E60828F8 /* [CP] Embed Pods Frameworks */,
+				B08012AAB179838D05A6791D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3F29C11FB58246006B9508 /* PBXTargetDependency */,
+			);
+			name = MerchantAppDemoUITests;
+			productName = MerchantAppDemoUITests;
+			productReference = EB3F29BF1FB58246006B9508 /* MerchantAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3F29941FB58245006B9508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Beans Group";
+				TargetAttributes = {
+					EB3F299B1FB58245006B9508 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					EB3F29B31FB58246006B9508 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB3F299B1FB58245006B9508;
+					};
+					EB3F29BE1FB58246006B9508 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB3F299B1FB58245006B9508;
+					};
+				};
+			};
+			buildConfigurationList = EB3F29971FB58245006B9508 /* Build configuration list for PBXProject "MerchantAppDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3F29931FB58245006B9508;
+			productRefGroup = EB3F299D1FB58245006B9508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3F299B1FB58245006B9508 /* MerchantAppDemo */,
+				EB3F29B31FB58246006B9508 /* MerchantAppDemoTests */,
+				EB3F29BE1FB58246006B9508 /* MerchantAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3F299A1FB58245006B9508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB57AE691FBE0323002AC269 /* Shop.storyboard in Resources */,
+				EB3F29AC1FB58245006B9508 /* LaunchScreen.storyboard in Resources */,
+				EB046C221FB6F44F00978944 /* PreSQA.storyboard in Resources */,
+				EB01F3631FB8A4E900777FC7 /* BusinessProfile.storyboard in Resources */,
+				EB3F29A91FB58245006B9508 /* Assets.xcassets in Resources */,
+				EB046C311FB6F7D900978944 /* Declaration.storyboard in Resources */,
+				EB046C2C1FB6F52400978944 /* OutletDetail.storyboard in Resources */,
+				EBDFC13F1FB95C6B00B6B07A /* Staff.storyboard in Resources */,
+				EB046C271FB6F4D700978944 /* BusinessLicense.storyboard in Resources */,
+				EBE939EF1FB92F21009FCD60 /* Home.storyboard in Resources */,
+				EB05364A1FB7844D00AB1794 /* CardServices.storyboard in Resources */,
+				EB3F29A71FB58245006B9508 /* Main.storyboard in Resources */,
+				EB0536301FB747DA00AB1794 /* CountryList.storyboard in Resources */,
+				EB0536381FB74C7F00AB1794 /* MapView.storyboard in Resources */,
+				EB046C1D1FB6F3A900978944 /* TnC.storyboard in Resources */,
+				EB01F3651FB8A7B700777FC7 /* RegisterPhoneNumber.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F29B21FB58246006B9508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F29BD1FB58246006B9508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BDAE697932D5F78B9AE0903 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerchantAppDemoTests/Pods-MerchantAppDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E230266E57772209168B881 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantAppDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A3419D9B8DC975E60828F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerchantAppDemoUITests/Pods-MerchantAppDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5567CF0C17BDB773DEAA5845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantAppDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA30F7F29B4B91F3DDF64ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerchantAppDemoTests/Pods-MerchantAppDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874A13CEFCDB0A258D7186A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerchantAppDemo/Pods-MerchantAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A636508B0DB71C22AB9CFE07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08012AAB179838D05A6791D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerchantAppDemoUITests/Pods-MerchantAppDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB57C588028F6C1048D07690 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerchantAppDemo/Pods-MerchantAppDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3F29981FB58245006B9508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB046C341FB70E7A00978944 /* DeclarationTableViewController.m in Sources */,
+				EBAAE0291FC1813000B9DE87 /* ShopQrCodeViewController.m in Sources */,
+				EB05362B1FB717CB00AB1794 /* BusinessLicenseTableViewController.m in Sources */,
+				EBC1604E1FBC41F200BEEEDD /* StaffTableViewCell.m in Sources */,
+				EBC160401FBA962600BEEEDD /* EditStaffProfileTableViewController.m in Sources */,
+				EB0536361FB74BB600AB1794 /* CapitalListViewController.m in Sources */,
+				EBC1603A1FBA94F600BEEEDD /* AddStaffTableViewController.m in Sources */,
+				EB01F3171FB894BA00777FC7 /* BusinessProfileTableViewController.m in Sources */,
+				EB01F3131FB8429200777FC7 /* CountryObject.m in Sources */,
+				EBDFC1431FB95D9C00B6B07A /* HomeViewController.m in Sources */,
+				EB05362E1FB73D0000AB1794 /* OutletDetailTableViewController.m in Sources */,
+				EB01F31D1FB8987B00777FC7 /* LoginViewController.m in Sources */,
+				EB023EAF1FBE9294004E0DD5 /* GenerateQRCodeViewController.m in Sources */,
+				EB05363C1FB7520900AB1794 /* CountryListTableViewCell.m in Sources */,
+				EB3F29A41FB58245006B9508 /* ViewController.m in Sources */,
+				EB3F29AF1FB58245006B9508 /* main.m in Sources */,
+				EBC1603D1FBA959D00BEEEDD /* StaffProfileTableViewController.m in Sources */,
+				EBF17FEE1FBC93620062AAF5 /* StaffViewController.m in Sources */,
+				EBC160451FBAC97800BEEEDD /* RegisterPhoneNumTableViewController.m in Sources */,
+				EB01F30C1FB83CBE00777FC7 /* GlobalMethod.m in Sources */,
+				EB01F30F1FB83D1100777FC7 /* GlobalConstant.m in Sources */,
+				EB023EAC1FBE753E004E0DD5 /* ShopTableViewCell.m in Sources */,
+				EB023EB21FBED1E4004E0DD5 /* ViewShopDetailTableViewController.m in Sources */,
+				EB0536331FB7492000AB1794 /* CountryListViewController.m in Sources */,
+				EB57AE621FBDFE1B002AC269 /* AddShopViewController.m in Sources */,
+				EB023EA91FBE7501004E0DD5 /* ShopDetailTableViewController.m in Sources */,
+				EB0536281FB70F9100AB1794 /* PreSQATableViewController.m in Sources */,
+				EB05363F1FB7521B00AB1794 /* CapitalListTableViewCell.m in Sources */,
+				EB01F3681FB8B74C00777FC7 /* CardServicesTableViewController.m in Sources */,
+				EBE4FAB81FBD24FF001346BC /* StaffObject.m in Sources */,
+				EB3F29A11FB58245006B9508 /* AppDelegate.m in Sources */,
+				EB57AE5F1FBDFBEE002AC269 /* ShopObject.m in Sources */,
+				EBDFC1501FB9FCC500B6B07A /* SalesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F29B01FB58246006B9508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3F29B91FB58246006B9508 /* MerchantAppDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3F29BB1FB58246006B9508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3F29C41FB58246006B9508 /* MerchantAppDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB3F29B61FB58246006B9508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3F299B1FB58245006B9508 /* MerchantAppDemo */;
+			targetProxy = EB3F29B51FB58246006B9508 /* PBXContainerItemProxy */;
+		};
+		EB3F29C11FB58246006B9508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3F299B1FB58245006B9508 /* MerchantAppDemo */;
+			targetProxy = EB3F29C01FB58246006B9508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB3F29A51FB58245006B9508 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3F29A61FB58245006B9508 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB3F29AA1FB58245006B9508 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3F29AB1FB58245006B9508 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB3F29C61FB58246006B9508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB3F29C71FB58246006B9508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB3F29C91FB58246006B9508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0710EC98294D4E616ACDE71A /* Pods-MerchantAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95QB8M8F42;
+				INFOPLIST_FILE = MerchantAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = merchantApp.MerchantAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB3F29CA1FB58246006B9508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207DD115AB7A419C8DEEEE7C /* Pods-MerchantAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95QB8M8F42;
+				INFOPLIST_FILE = MerchantAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = merchantApp.MerchantAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB3F29CC1FB58246006B9508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A022E9069159495C36DB7FA2 /* Pods-MerchantAppDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerchantAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = merchantApp.MerchantAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantAppDemo.app/MerchantAppDemo";
+			};
+			name = Debug;
+		};
+		EB3F29CD1FB58246006B9508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DFF5135773C2F35B7BB380 /* Pods-MerchantAppDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerchantAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = merchantApp.MerchantAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantAppDemo.app/MerchantAppDemo";
+			};
+			name = Release;
+		};
+		EB3F29CF1FB58246006B9508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C88FC6133E84A58AF01AC75 /* Pods-MerchantAppDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerchantAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = merchantApp.MerchantAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerchantAppDemo;
+			};
+			name = Debug;
+		};
+		EB3F29D01FB58246006B9508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA42166A51D6224498A7B961 /* Pods-MerchantAppDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerchantAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = merchantApp.MerchantAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerchantAppDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3F29971FB58245006B9508 /* Build configuration list for PBXProject "MerchantAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F29C61FB58246006B9508 /* Debug */,
+				EB3F29C71FB58246006B9508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3F29C81FB58246006B9508 /* Build configuration list for PBXNativeTarget "MerchantAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F29C91FB58246006B9508 /* Debug */,
+				EB3F29CA1FB58246006B9508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3F29CB1FB58246006B9508 /* Build configuration list for PBXNativeTarget "MerchantAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F29CC1FB58246006B9508 /* Debug */,
+				EB3F29CD1FB58246006B9508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3F29CE1FB58246006B9508 /* Build configuration list for PBXNativeTarget "MerchantAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3F29CF1FB58246006B9508 /* Debug */,
+				EB3F29D01FB58246006B9508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB3F29941FB58245006B9508 /* Project object */;
+}

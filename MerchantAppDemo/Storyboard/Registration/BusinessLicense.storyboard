@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qZf-lB-wJI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Business License Table View Controller-->
+        <scene sceneID="fgX-J0-wrj">
+            <objects>
+                <tableViewController id="qZf-lB-wJI" customClass="BusinessLicenseTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="400" sectionHeaderHeight="18" sectionFooterHeight="18" id="GCv-mJ-2KB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Business Registration License Photo" id="2ZF-iW-RRJ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="350" id="6Gx-qI-P7e">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="350"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Gx-qI-P7e" id="NWZ-dO-VqS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="349.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo-cert" translatesAutoresizingMaskIntoConstraints="NO" id="oHr-QA-Va9">
+                                                    <rect key="frame" x="87" y="20" width="200" height="240"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="oHr-QA-Va9" secondAttribute="height" multiplier="1:1.2" id="4sI-wY-mxp"/>
+                                                        <constraint firstAttribute="width" constant="200" id="Zn2-gL-CIq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="q9J-k3-pT8">
+                                                    <rect key="frame" x="87" y="280" width="200" height="25"/>
+                                                    <state key="normal" title="Upload" image="camera">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="oHr-QA-Va9" firstAttribute="top" secondItem="NWZ-dO-VqS" secondAttribute="top" constant="20" symbolic="YES" id="7bA-gj-kMZ"/>
+                                                <constraint firstItem="q9J-k3-pT8" firstAttribute="leading" secondItem="oHr-QA-Va9" secondAttribute="leading" id="VvU-N9-val"/>
+                                                <constraint firstItem="q9J-k3-pT8" firstAttribute="trailing" secondItem="oHr-QA-Va9" secondAttribute="trailing" id="e9Q-cd-btH"/>
+                                                <constraint firstItem="oHr-QA-Va9" firstAttribute="centerX" secondItem="NWZ-dO-VqS" secondAttribute="centerX" id="hDM-Zd-hP5"/>
+                                                <constraint firstItem="q9J-k3-pT8" firstAttribute="top" secondItem="oHr-QA-Va9" secondAttribute="bottom" constant="20" id="hij-a1-vVN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="qZf-lB-wJI" id="5r0-yn-Z9d"/>
+                            <outlet property="delegate" destination="qZf-lB-wJI" id="5HS-Lx-D0J"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="imageView" destination="oHr-QA-Va9" id="z6S-uV-vGk"/>
+                        <outlet property="uploadButton" destination="q9J-k3-pT8" id="fDD-rA-JAE"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qNh-7V-FKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351" y="-35"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" width="25" height="25"/>
+        <image name="demo-cert" width="342" height="433"/>
+    </resources>
+</document>
